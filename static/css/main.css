@@ -96,6 +96,8 @@ header h4 {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    object-fit: cover; /* crop to fit without stretching */
+    object-position: center;
 }
 
 .speaker_picture {
@@ -105,6 +107,8 @@ header h4 {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    object-fit: cover; /* crop to fit without stretching */
+    object-position: center;
 }
 
 .alert-box {
